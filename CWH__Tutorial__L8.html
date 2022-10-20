@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Form </title>
+
+</head>
+
+<body>
+
+    <h2>this is a Form Tutorial </h2>
+
+    <!-- Data is submitted in backend.php through action  -->
+    
+    <form action="backend.php">
+
+        <!-- this is a Lable tag  in this [ for Atribute ] we write what we want and then put that in [ id ] of the  input tag  -->
+
+        <label for="name"> Name
+            <!-- this Name will be shown as lable -->
+        </label>
+        <div>
+
+            <input type="text" name="myName" id="name ">
+
+        </div>
+        <br>
+
+        <label for="age"> Age </label>
+        <div>
+
+            <input type="number" name="Age" id="age">
+        </div>
+        <br>
+
+        <label for="role"> Role </label>
+        <div>
+
+            <input type="text" name="myRole" id="role">
+
+        </div>
+        <br>
+
+        <label for="email"> Email </label>
+        <div>
+
+            <input type="Email" name="myEmail" id="email">
+
+        </div>
+        <br>
+
+        <label for="Date"> Date</label>
+        <div>
+
+              <input type="date" name="" id="Date">
+
+        </div>
+        <br>
+
+        <label for="eligibility"> myEligibility </label>
+        <div>
+
+            <!-- if you wnat this checkbox to be checked by - Default then put checked in the ending of the tag after [ name Atribute ] in this case  -->
+
+            <input type="checkbox" name="myEligibility " id="eligibility">
+        </div>
+        <br>
+
+        <label for="gender"> Gender </label>
+        <div>
+            <!-- in this we can select only onle option because of  myGender is same in both Male and FeMale  -->
+
+            Male <input type="radio" name="myGender" id="gender"> FeMale <input type="radio" id="gender"
+                name="myGender">
+
+        </div>
+        <br>
+          
+        <label for="cars"> Car </label>
+        <div>
+
+            <section name="myCar" id="cars">
+
+                <option value="ind">indica</option>
+                <option value="swf">swift</option>
+
+            </section>
+        </div>
+        <br>
+
+        <div>
+
+            <input type="submit" value="submit now "> <br>
+            <br>
+            <input type="reset" value="Reset now ">
+
+        </div>
+    </form>
+</body>
+
+</html>

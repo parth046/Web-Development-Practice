@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        h1{
+            background-color: red;
+            font-weight: bold;
+            color: black;
+            text-align: center;        
+        }
+/* this > will tell's to apply  the CSS on a P TAG that is just inside the Div Tag   */
+        div > p {
+            color: blue;
+            font-weight: bold;
+            font-size: 20px;
+        }
+ /* this + will tell's to apply the CSS on a P TAG is next sibling to Div Tag  EX : only outer and inner paragraph will be affected        */
+        div + p {
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        
+
+    </style>
+
+</head>
+<body>
+  <h1>More on selector </h1>
+  <div class="outer">
+    <ul>
+        <li><p>this is a paragraph inside li</p></li>
+        <p>this is a paragraph inside ul </p>
+    </ul>
+    <p>this is the outer container paragraph </p>
+    <div class="inner">
+        <p>this is the inner container paragraph </p>
+    </div>
+  </div>
+    <p>this is the outer most paragraph</p>
+</body>
+</html>

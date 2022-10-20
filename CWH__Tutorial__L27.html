@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <Style>
+            .box{
+                width: 170px;
+                height: 170px;
+                border: 2px solid black;
+                
+            }
+            #box1{ 
+                position: relative;
+                top: 49px;
+                z-index: 34;
+                background-color:green ;
+            }
+            #box2{
+                position: relative;
+                top: 14px;
+                z-index: -1;
+                background-color: red;
+            }
+            #box3{
+                background-color: blue;
+            }
+            #box4{
+                /* display: none;  displaty : it will hide the element and it will hide the space that element was taking */
+
+                /* visibility: hidden;  visibility : it will hide element but will show its empty space at its position  */
+
+                background-color: yellow;
+            }
+    </Style>
+
+</head>
+
+<body>
+    
+    <h1>Visibility and Z - index  </h1>
+
+    <!-- To make multiple Div with different [ id ]  just write  [ div.box#box$*4 ] it will create 4 div with box as class and the dollor will make number from 1 to till you want -->
+
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+
+    <h1>Z - index only work for position : Relative , Absolute , Fixed ,  Sticky</h1>
+    <h1> if the z - index value is high then that element will stay on top and if the z - index value is negative then that particular element will stay behind the top element </h1>
+       
+</body>
+
+</html>

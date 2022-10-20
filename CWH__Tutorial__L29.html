@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <style>
+        html{
+            /* font-size: 15px; */
+        }
+
+   .con{
+    font-size: 5px;
+    border: 2px solid red;
+    width: 100vw; /* [ 100vw ] will take the full width of the page where [ w in vw is  widhth ]*/
+    height: 100vh;  /* [ 100vh ] will take the full height of the page  where [ h in vh is  height ] */
+   }
+h1{
+    text-align: center; 
+    
+}
+
+#First{
+   /* font-size: 10em; */   /* This [ em unit] will increase the font size according to its parent's font size  EX : 10em will increase the font size of the text of First id  10 time it parent [ cont ] */
+   /* padding: 3em; */ /* This [ em unit ] will increase the padding of first h1 tag according its font size  EX : 3em will increase the padding of h1 tag by  multiply 3 with font size [ h1 tag ] the output will be the padding   */
+}
+
+#Second{
+    /* font-size: 10rem; */   /* This [ rem unit] will re-size the font size according to its Root font size [ html ]  EX : 10rem will re-size the font size of the text of First id  10 time it Root [ html ]*/
+    /* padding: 3rem; */ /* This [ rem unit ] will re-size the padding of first h1 tag according to Root font size [ html ]  EX : 3rem will re-size the padding of h1 tag by multiply 3 with font size of Root [ html ] the output will be the padding   */
+}
+   
+    </style>
+    
+</head>
+<body>
+
+    <!-- <h1>Size Units</h1> -->
+
+    <div class="con">
+     
+        <h1 id="First">This is First Heading </h1>
+        <h1 id="Second">This is Second Heading </h1>
+        <h1 id="Third">This is Third Heading </h1>
+                     
+    </div>
+    
+</body>
+</html>

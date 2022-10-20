@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <style>
+
+        /* There is also a universal Selector in CSS */
+
+        *{
+            /* What ever we write in this universal Selector it will apply on every element unless we change it seperately */
+
+            box-sizing: border-box ; /* Because of this property it does not matter if you change Padding and Margin the size of the Box will still remain same [ size of the box given by width ]*/
+
+            background-color: #f4dcff; 
+
+        }
+
+        .c{
+            
+            border: 3px solid rgb(73, 22, 215);
+            border-radius: 20px;
+            width: 250px;
+        
+
+            /* We can set the Margin and Padding for   Top , Bottom , Left , Right  Seperately */
+
+            padding-top: 40px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+            padding-right: 40px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            margin-right: 25px;
+            margin-left: 35px;
+
+
+            /* We can set the Margin and Padding for  Top , Bottom , Left , Right  in a single line  just give space between them */
+
+            /* Syntax -->  padding: top right bottom left ;    EX:  */
+
+            /* Syntax -->  Margin : top right bottom left ;    EX:  */
+
+            padding: 40px 40px 40px 40px ;
+
+            margin: 25px 25px 25px 35px;
+
+            /* We can set padding and margin  for   Top / Bottom   and    Left / Right  in single line    */
+
+            /* syntax -->   padding : Y - ( top/bottom )  X - ( left/right ) ;  EX : */
+
+            /* syntax -->   margin  : Y - ( top/bottom )  X - ( left/right ) ;  EX : */
+
+            padding: 40px 40px  ; /* First is  Y - axis  and the Second is  X - axis */
+
+
+
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+    
+<h1>Box Model , Margin , Padding ,  Box sizzing </h1>
+
+<div class="c">
+    <h3>This is my Heading </h3>
+    <p id="f">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem, deleniti impedit ea tempore incidunt ducimus provident consectetur minus id aliquam. Laboriosam, quos.</p>
+</div>
+<div class="c">
+    <h3>This is my Heading </h3>
+    <p id="s">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem, deleniti impedit ea tempore incidunt ducimus provident consectetur minus id aliquam. Laboriosam, quos.</p>
+</div>
+<div class="c">
+    <h3>This is my Heading </h3>
+    <p id="t">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos autem, deleniti impedit ea tempore incidunt ducimus provident consectetur minus id aliquam. Laboriosam, quos.</p>
+</div>
+
+
+</body>
+</html>
